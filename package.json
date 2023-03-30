@@ -1,0 +1,30 @@
+{
+  "name": "mock-fast",
+  "version": "1.0.0",
+  "description": "使用 mockjs mock 数据",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -x ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shibin-cli/mock-fast.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shibin-cli/mock-fast/issues"
+  },
+  "homepage": "https://github.com/shibin-cli/mock-fast#readme",
+  "dependencies": {
+    "fastify": "^4.15.0",
+    "mockjs": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/mockjs": "^1.0.7",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
